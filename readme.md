@@ -2,6 +2,30 @@
 
 ### Create, edit, and manage the schedule & profile of all staff, riders, and horses
 
+##Competetive Analysis
+* Other centers like them: 
+	* The ROCK North Austin
+		*  Focuses on kids
+		*  Promotes independence & life skills
+		*  Service, education and research
+	* SIRE
+		* In houston
+		* Focuses on special needs
+			* Most common is autism, followed by cerebral palsy
+	* Path (certification)
+		* promotes safety and optimal outcomes
+		* strong core values
+			* access and inclusion
+			* coop & collaboration
+			* education, innovation
+			* etc.
+* Differentiating factors: 
+	* Individual lessons instead of group lessons
+	* Program set up to where horses have days off
+		* horses are healthy & last 6 years
+	* Job training, mental health counseling
+	* Broad range of offerings
+
 ##Sitemap
 
 ###Admin

@@ -364,6 +364,84 @@ pre {
     margin-bottom: 6em;
 }
 
+//styles for color section
+@mixin centerer($position: relative) {
+    position: $position;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#color-section {
+    .background-color {
+        position: relative;
+        width: 20%;
+        height: 10em;
+        background-color: $background-color;
+        display: inline-block;
+        float: left;
+        z-index: 999;
+//        overflow: hidden;
+//        text-overflow: ellipsis;
+//        white-space: nowrap;
+        span {
+            text-transform: uppercase;
+            text-align: center;
+            @include centerer(absolute);
+        }
+        &:hover {
+            box-shadow: 0px 3px 10px 3px rgba(0,0,0,.25);
+        }
+    }
+    .primary {
+        @extend .background-color;
+        background-color: $primary;
+    }
+    .secondary {
+        @extend .background-color;
+        background-color: $secondary;
+    }
+    .accent1 {
+        @extend .background-color;
+        background-color: $accent1;
+    }
+    .accent2 {
+        @extend .background-color;
+        background-color: $accent2;
+    }
+    .card-background-color {
+        @extend .background-color;
+        background-color: $card-background-color;
+        z-index: 998;
+    }
+    .modal-text-color {
+        @extend .background-color;
+        background-color: $modal-text-color;
+        z-index: 998;
+    }
+    .sessions-color {
+        @extend .background-color;
+        background-color: $sessions-color;
+        z-index: 998;
+    }
+    .birthdays-color {
+        @extend .background-color;
+        background-color: $birthdays-color;
+        z-index: 998;
+    }
+    .modal-input {
+        @extend .background-color;
+        background-color: $modal-input;
+        z-index: 998;
+    }
+    .white-text {
+        color: white;
+    }
+}
+
+//styles for form section
+
+
 
 
 @include media-query($on-palm) {

@@ -86,7 +86,7 @@ a {
   font-family: 'Montserrat'; }
 
 .sample {
-  background-color: #B3B3B3;
+  background-color: #F2F2F2;
   color: #5a6568;
   padding: 1em; }
 
@@ -196,7 +196,7 @@ pre {
 
 .gridwrapper {
   padding: 3em;
-  background-color: #B3B3B3;
+  background-color: #F2F2F2;
   /* larger grid */ }
   .gridwrapper .col {
     height: 2em;
@@ -284,7 +284,7 @@ pre {
   max-width: 60%;
   font-size: 1.5em;
   color: #5a6568;
-  background-color: #B3B3B3;
+  background-color: #F2F2F2;
   padding: 1em; }
 
 .source-sans-sample {
@@ -292,11 +292,54 @@ pre {
   max-width: 60%;
   font-size: 1.5em;
   color: #5a6568;
-  background-color: #B3B3B3;
+  background-color: #F2F2F2;
   padding: 1em; }
 
 #forms {
   margin-bottom: 6em; }
+
+#color-section .background-color, #color-section .primary, #color-section .secondary, #color-section .accent1, #color-section .accent2, #color-section .card-background-color, #color-section .modal-text-color, #color-section .sessions-color, #color-section .birthdays-color, #color-section .modal-input {
+  position: relative;
+  width: 20%;
+  height: 10em;
+  background-color: #F2F2F2;
+  display: inline-block;
+  float: left;
+  z-index: 999; }
+  #color-section .background-color span, #color-section .primary span, #color-section .secondary span, #color-section .accent1 span, #color-section .accent2 span, #color-section .card-background-color span, #color-section .modal-text-color span, #color-section .sessions-color span, #color-section .birthdays-color span, #color-section .modal-input span {
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+  #color-section .background-color:hover, #color-section .primary:hover, #color-section .secondary:hover, #color-section .accent1:hover, #color-section .accent2:hover, #color-section .card-background-color:hover, #color-section .modal-text-color:hover, #color-section .sessions-color:hover, #color-section .birthdays-color:hover, #color-section .modal-input:hover {
+    box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.25); }
+#color-section .primary {
+  background-color: #D7DFE2; }
+#color-section .secondary {
+  background-color: #ABB7B7; }
+#color-section .accent1 {
+  background-color: #95312F; }
+#color-section .accent2 {
+  background-color: #765D50; }
+#color-section .card-background-color {
+  background-color: white;
+  z-index: 998; }
+#color-section .modal-text-color {
+  background-color: #808080;
+  z-index: 998; }
+#color-section .sessions-color {
+  background-color: #24541B;
+  z-index: 998; }
+#color-section .birthdays-color {
+  background-color: #0000FF;
+  z-index: 998; }
+#color-section .modal-input {
+  background-color: #CCCCCC;
+  z-index: 998; }
+#color-section .white-text {
+  color: white; }
 
 @media screen and (max-width: 600px) {
   .sidebar {
@@ -314,7 +357,7 @@ pre {
   top: 0px;
   width: 100%;
   padding: 0.5em 0em;
-  background: #B3B3B3; }
+  background: #F2F2F2; }
 
 .site-title {
   font-size: 3em;
@@ -341,7 +384,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 15px;
-      background-color: #B3B3B3;
+      background-color: #F2F2F2;
       border: 1px solid white;
       border-radius: 5px;
       text-align: right; }

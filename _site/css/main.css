@@ -59,7 +59,8 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; }
+  font-weight: 400;
+  margin-top: 1em; }
 
 h2 {
   text-transform: uppercase; }
@@ -256,7 +257,7 @@ pre {
       .gridwrapper .col-12:last-child {
         margin-right: 0; } }
 
-.montserrat-sample h3 {
+.montserrat-sample {
   font-family: 'Montserrat';
   max-width: 60%;
   font-size: 1.5em;
@@ -264,7 +265,7 @@ pre {
   background-color: #B3B3B3;
   padding: 1em; }
 
-.source-sans-sample h3 {
+.source-sans-sample {
   font-family: 'Source Sans Pro';
   max-width: 60%;
   font-size: 1.5em;

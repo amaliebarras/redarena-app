@@ -82,6 +82,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
+    margin-top: 1em;
 }
 
 h2 {
@@ -317,7 +318,7 @@ pre {
     }
 }
 
-  .montserrat-sample h3 {
+  .montserrat-sample {
       font-family: 'Montserrat';
       max-width: 60%;
       font-size: 1.5em;
@@ -326,14 +327,14 @@ pre {
       padding: 1em;
   }
 
-  .source-sans-sample h3 {
+  .source-sans-sample {
       font-family: 'Source Sans Pro';
       max-width: 60%;
       font-size: 1.5em;
       color: $grey-color-dark;
       background-color: $background-color;
       padding: 1em;
-  }
+      }
 
 #forms {
     margin-bottom: 6em;

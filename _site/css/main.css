@@ -62,11 +62,33 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin-top: 1em; }
 
+h1 {
+  font-family: 'Montserrat';
+  font-size: 2.5em; }
+
 h2 {
-  text-transform: uppercase; }
+  font-family: 'Source Sans Pro';
+  font-size: 1.5em;
+  letter-spacing: 1.0;
+  font-weight: bold; }
 
 h3 {
-  font-weight: bold; }
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 1.25em; }
+
+h4 {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  text-decoration: underline; }
+
+a {
+  font-family: 'Montserrat'; }
+
+.sample {
+  background-color: #B3B3B3;
+  color: #5a6568;
+  padding: 1em; }
 
 /**
  * Links

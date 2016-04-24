@@ -85,15 +85,39 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 1em;
 }
 
-h2 {
-  text-transform: uppercase;
+h1 {
+  font-family: 'Montserrat';
+  font-size: 2.5em;
 }
 
-h3 {
+h2 {
+  font-family: 'Source Sans Pro';
+  font-size: 1.5em;
+  letter-spacing: 1.0;
   font-weight: bold;
 }
 
+h3 {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
 
+h4 {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+a {
+  font-family: 'Montserrat';
+}
+
+.sample {
+  background-color: $background-color;
+  color: $grey-color-dark;
+  padding: 1em;
+}
 
 
 

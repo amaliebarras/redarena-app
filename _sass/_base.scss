@@ -16,7 +16,6 @@ dl, dd, ol, ul, figure {
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -91,11 +90,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $grey-color;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($grey-color, 15%);
     }
 
     &:hover {
@@ -156,17 +155,11 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
@@ -202,5 +195,137 @@ pre {
         path {
             fill: $grey-color;
         }
+    }
+}
+
+
+.sidebar {
+    position: fixed;
+    float: left;
+    top: 10em;
+    left: 0;
+     width: 15%;
+     padding: 2em;
+     padding-top: 0;
+     clear: both;
+     a {
+        text-align: center;
+        display: block;
+        font-size: 2em;
+        line-height: 1em;
+        text-transform: uppercase;
+        margin-bottom: 1em;
+     }
+}
+
+.styleguide-content {
+    margin-top: 12px;
+    float: right;
+    color: $brand-color;
+    width: 75%;
+    padding: 2em;
+    box-sizing: border-box;
+    .subsection {
+        margin-bottom: 3em;
+    }
+}
+
+.gridwrapper {
+    padding: 3em;
+    background-color: #B3B3B3;
+    $tot-width: 100%;
+    $num-col: 12;
+    $gut-width: 2%;
+
+    $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
+
+    @mixin grid($geezy){
+      width: ($geezy * $ind-col-width) + ($gut-width * ($geezy - 1));
+      float: left;
+      margin-right: $gut-width;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .col {
+      height: 2em;
+      background-color: #95312f;
+      margin-bottom: 5px;
+    }
+
+    .row {
+      margin-top: 2em;
+      overflow: hidden;
+    }
+
+    /* larger grid */
+
+    @media (min-width: 650px) {
+
+      .col-1 {
+        @include grid (1);
+      }
+
+      .col-2 {
+        @include grid(2);
+      }
+
+      .col-3 {
+        @include grid(3);
+      }
+
+      .col-4 {
+        @include grid(4);
+      }
+      
+      .col-5 {
+        @include grid(5);
+      }
+      .col-6 {
+        @include grid(6);
+      }
+      .col-7 {
+        @include grid(7);
+      }
+      .col-8 {
+        @include grid(8);
+      }
+      .col-9 {
+        @include grid(9);
+      }
+      .col-10 {
+        @include grid(10);
+      }
+      .col-11 {
+        @include grid(11);
+      }
+      .col-12 {
+        @include grid(12);
+      }
+    }
+}
+
+/* #type */
+    .montserrat-sample {
+        font-family: 'Montserrat';
+       h3 { max-width: 8em; }
+    }
+
+    .source-sans-sample {
+        font-family: 'Source Sans Pro';
+        max-width: 8em;
+    }
+
+#forms {
+    margin-bottom: 6em;
+}
+
+
+
+@include media-query($on-palm) {
+    .sidebar{ display: none;}
+    .styleguide-content {
+        width: 100%;
     }
 }

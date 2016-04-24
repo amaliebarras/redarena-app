@@ -2,16 +2,19 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    border-bottom: 3px solid $brand-color;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position:fixed;
+   left:0px;
+   top:0px;
+   width:100%;
+   padding: 0.5em 0em;
+   background: $background-color;
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 3em;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
@@ -52,7 +55,7 @@
         text-align: right;
 
         .menu-icon {
-            display: block;
+            display: none;
             float: right;
             width: 36px;
             height: 26px;
@@ -98,6 +101,12 @@
  * Site footer
  */
 .site-footer {
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#fff;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
@@ -127,18 +136,18 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
+    width:         calc(40% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(15% - (#{$spacing-unit} / 2));
+    width:         calc(15% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {

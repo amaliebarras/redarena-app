@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -14,11 +14,11 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #FF7BAC;
+$background-color: #B3B3B3;
+$brand-color:      #95312f;
 
-$grey-color:       #828282;
+$grey-color:       #9AA5A8;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -51,3 +51,18 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+h1 {
+	
+    color: darken($grey-color, 15%);
+}
+
+.montserrat-sample {
+	font-family: 'Montserrat';
+	max-width: 8em;
+}
+
+.source-sans-sample {
+	font-family: 'Source Sans Pro';
+	max-width: 8em;
+}

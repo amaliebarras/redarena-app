@@ -84,6 +84,16 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
+h2 {
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+
+
 
 
 /**
@@ -219,6 +229,7 @@ pre {
 }
 
 .styleguide-content {
+    border-left: 2px solid $grey-color;
     margin-top: 12px;
     float: right;
     color: $brand-color;
@@ -232,7 +243,7 @@ pre {
 
 .gridwrapper {
     padding: 3em;
-    background-color: #B3B3B3;
+    background-color: $background-color;
     $tot-width: 100%;
     $num-col: 12;
     $gut-width: 2%;
@@ -250,7 +261,7 @@ pre {
 
     .col {
       height: 2em;
-      background-color: #95312f;
+      background-color: $grey-color-dark;
       margin-bottom: 5px;
     }
 
@@ -306,16 +317,23 @@ pre {
     }
 }
 
-/* #type */
-    .montserrat-sample {
-        font-family: 'Montserrat';
-       h3 { max-width: 8em; }
-    }
+  .montserrat-sample h3 {
+      font-family: 'Montserrat';
+      max-width: 60%;
+      font-size: 1.5em;
+      color: $grey-color-dark;
+      background-color: $background-color;
+      padding: 1em;
+  }
 
-    .source-sans-sample {
-        font-family: 'Source Sans Pro';
-        max-width: 8em;
-    }
+  .source-sans-sample h3 {
+      font-family: 'Source Sans Pro';
+      max-width: 60%;
+      font-size: 1.5em;
+      color: $grey-color-dark;
+      background-color: $background-color;
+      padding: 1em;
+  }
 
 #forms {
     margin-bottom: 6em;

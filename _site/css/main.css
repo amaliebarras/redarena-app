@@ -61,6 +61,12 @@ li > ol {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
+h2 {
+  text-transform: uppercase; }
+
+h3 {
+  font-weight: bold; }
+
 /**
  * Links
  */
@@ -155,6 +161,7 @@ pre {
     margin-bottom: 1em; }
 
 .styleguide-content {
+  border-left: 2px solid #9AA5A8;
   margin-top: 12px;
   float: right;
   color: #95312f;
@@ -170,7 +177,7 @@ pre {
   /* larger grid */ }
   .gridwrapper .col {
     height: 2em;
-    background-color: #95312f;
+    background-color: #5a6568;
     margin-bottom: 5px; }
   .gridwrapper .row {
     margin-top: 2em;
@@ -249,15 +256,21 @@ pre {
       .gridwrapper .col-12:last-child {
         margin-right: 0; } }
 
-/* #type */
-.montserrat-sample {
-  font-family: 'Montserrat'; }
-  .montserrat-sample h3 {
-    max-width: 8em; }
+.montserrat-sample h3 {
+  font-family: 'Montserrat';
+  max-width: 60%;
+  font-size: 1.5em;
+  color: #5a6568;
+  background-color: #B3B3B3;
+  padding: 1em; }
 
-.source-sans-sample {
+.source-sans-sample h3 {
   font-family: 'Source Sans Pro';
-  max-width: 8em; }
+  max-width: 60%;
+  font-size: 1.5em;
+  color: #5a6568;
+  background-color: #B3B3B3;
+  padding: 1em; }
 
 #forms {
   margin-bottom: 6em; }
@@ -345,7 +358,7 @@ pre {
   height: 30px;
   width: 100%;
   background: #fff;
-  border-top: 1px solid white;
+  border-top: 3px solid #95312f;
   padding: 30px 0; }
 
 .footer-heading {
@@ -588,14 +601,3 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
-
-h1 {
-  color: #728084; }
-
-.montserrat-sample {
-  font-family: 'Montserrat';
-  max-width: 8em; }
-
-.source-sans-sample {
-  font-family: 'Source Sans Pro';
-  max-width: 8em; }

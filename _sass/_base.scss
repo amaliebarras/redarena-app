@@ -25,6 +25,10 @@
  * Basic styling
  */
 
+p {
+    max-width: 70%;
+}
+
     body {
         font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
         color: $text-color;
@@ -34,6 +38,7 @@
         -o-font-feature-settings: "kern" 1;
         font-feature-settings: "kern" 1;
         font-kerning: normal;
+
     }
     /**
  * Set `margin-bottom` to maintain vertical rhythm

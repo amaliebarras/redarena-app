@@ -23,6 +23,9 @@ figure {
    /**
 * Basic styling
 */
+p {
+  max-width: 70%; }
+
 body {
   font: 400 16px/1.5 "Source Sans Pro", Helvetica, Arial, sans-serif;
   color: #FF7BAC;

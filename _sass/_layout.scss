@@ -2,7 +2,8 @@
  * Site header
  */
 .site-header {
-    border-bottom: 3px solid $brand-color;
+    box-shadow: 0px 1px 15px grey;
+    z-index: 999;
 
     // Positioning context for the mobile navigation icon
     position:fixed;
@@ -14,7 +15,7 @@
 }
 
 .site-title {
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
@@ -101,6 +102,7 @@
  * Site footer
  */
 .site-footer {
+    z-index: 999;
     position:fixed;
    left:0px;
    bottom:0px;

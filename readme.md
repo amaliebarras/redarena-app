@@ -1,6 +1,6 @@
 #Red Arena
 
-### Create, edit, and manage the schedule & profile of all staff, riders, and horses. Technical Requirements [here])https://gist.github.com/jah2488/513d20bd3eadea8e5598db2072d7f193)
+### Create, edit, and manage the schedule & profile of all staff, riders, and horses. Technical Requirements [here](https://gist.github.com/jah2488/513d20bd3eadea8e5598db2072d7f193)
 
 ##Competetive Analysis
 * Other centers like them: 
@@ -155,9 +155,41 @@
 
 ## Style Tiles
 
+We came up with a few different concepts for styling, playing around with child-like, feminine, and friendship. We ended up going with a barn-like color scheme and sans-serif spacious type, since we knew our screens would be busy.
+
+![](https://github.com/amaliebarras/redarena-app/blob/master/Research/Style%20Tiles/styletiles.jpg)
+
 ## Sketches
 
+During the sketch phase, we chose a tile-like directory and a calendar layout for the "upcoming" page.
+
+![](https://github.com/amaliebarras/redarena-app/blob/master/Research/Sketches/sketches.png)
+
 ## Wireframes
+
+### Mobile
+
+#### Directory
+![](https://github.com/amaliebarras/redarena-app/blob/master/Research/Wireframes/Mobile%20Directory.png)
+
+#### Upcoming
+![](https://github.com/amaliebarras/redarena-app/blob/master/Research/Wireframes/Mobile%20Schedule.png)
+
+### Tablet
+
+#### Directory
+![](https://github.com/amaliebarras/redarena-app/blob/master/Research/Wireframes/Tablet%20Directory.png)
+
+#### Upcoming
+![](https://github.com/amaliebarras/redarena-app/blob/master/Research/Wireframes/Tablet%20Schedule.png)
+
+### Desktop
+
+#### Directory
+![](https://github.com/amaliebarras/redarena-app/blob/master/Research/Wireframes/Directory%20Desktop.png)
+
+#### Upcoming
+![](https://github.com/amaliebarras/redarena-app/blob/master/Research/Wireframes/Upcoming%20Desktop.png)
 
 ## Style Guide
 

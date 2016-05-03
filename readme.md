@@ -1,6 +1,6 @@
 #Red Arena
 
-### Create, edit, and manage the schedule & profile of all staff, riders, and horses
+### Create, edit, and manage the schedule & profile of all staff, riders, and horses. Technical Requirements [here])https://gist.github.com/jah2488/513d20bd3eadea8e5598db2072d7f193)
 
 ##Competetive Analysis
 * Other centers like them: 
@@ -119,7 +119,7 @@
 				* reins, 
 				* stirrups
 2. What do you dislike most about each process? 
-	* 
+	* didn't get a chance to ask this
 
 3. Describe a typical user for this app? (Organizers, employees, volunteers?)
 	* Volunteers (100+) -
@@ -152,3 +152,13 @@
 	 
 9. How do you track the student improvement? 
 	*  Out of scope
+
+## Style Tiles
+
+## Sketches
+
+## Wireframes
+
+## Style Guide
+
+View project [here.](http://amaliebarras.github.io/redarena-app)

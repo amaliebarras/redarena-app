@@ -9,8 +9,8 @@
 title: RED Arena Style Guide
 description: > # this means to ignore newlines until "baseurl:"
   
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/redarena-app" # the subpath of your site, e.g. /blog
+url: "amaliebarras.github.io" # the base hostname & protocol for your site
 github_username:  amaliebarras/redarena-app
 
 # Build settings

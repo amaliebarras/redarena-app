@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>RED Arena Style Guide</title>
+    <meta name="description" content="">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400,300,600,600italic,400italic,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href=" /css/main.css ">
+    <link rel="canonical" href="http://yourdomain.com/">
+    <link rel="alternate" type="application/rss+xml" title="RED Arena Style Guide" href="http://yourdomain.com /feed.xml ">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">RED Arena Style Guide</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <section class= "sidebar">
+
+	<a href = "#grid">grid</a>
+	<a href = "#type">type</a>
+	<a href = "#color">color </a>
+	<a href = "#forms">forms </a>
+
+</section>
+
+
+
+<div class = "styleguide-content">
+<h1></h1>
+
+<div class="subsection" id="#grid">
+    <a name="grid"></a>
+    <h1>GRID</h1> Use a 12-column grid to keep the structure of this design.
+    <br>
+    <br>
+    <h2>Example</h2>
+    <div class="gridwrapper">
+        <div class="row">
+            <div class="col col-1">
+            </div>
+            <div class="col col-1">
+            </div>
+            <div class="col col-1">
+            </div>
+            <div class="col col-1">
+            </div>
+            <div class="col col-1">
+            </div>
+            <div class="col col-1">
+            </div>
+            <div class="col col-1">
+            </div>
+            <div class="col col-1">
+            </div>
+            <div class="col col-1">
+            </div>
+            <div class="col col-1">
+            </div>
+            <div class="col col-1">
+            </div>
+            <div class="col col-1">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-2"></div>
+            <div class="col col-2"></div>
+            <div class="col col-2"></div>
+            <div class="col col-2"></div>
+            <div class="col col-2"></div>
+            <div class="col col-2"></div>
+        </div>
+
+
+        <div class="row">
+            <div class="col col-3"></div>
+            <div class="col col-3"></div>
+            <div class="col col-3"></div>
+            <div class="col col-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col col-4"></div>
+            <div class="col col-4"></div>
+            <div class="col col-4"></div>
+        </div>
+
+        <div class="row">
+            <div class="col col-5"></div>
+            <div class="col col-7"></div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h2>Code</h2>
+    <h3> Fork code for this grid from <a href = "http://codepen.io/amaliebarras/pen/PNBRYd">Codepen:</a> </h3>
+    <p data-height="266" data-theme-id="dark" data-slug-hash="PNBRYd" data-default-tab="css,result" data-user="amaliebarras" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/amaliebarras/pen/PNBRYd/">Grid Mixin for RED Arena</a> by Amalie Barras (<a href="http://codepen.io/amaliebarras">@amaliebarras</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+    <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+    <h2>Use</h2>
+    <p> To use this grid:
+        <ol class="gridlist">
+            <li>Wrap each row in a div with the "row". class </li>
+            <li>Give a class of "col" to each column in the row.</li>
+            <li>Give a class of col-n to each column in the row, with n representing the number of spaces in the grid that the column should take up.</li>
+            <li>The sum of n's in each row should be 12.</li>
+        </ol>
+    </p>
+</div>
+<div class="subsection" id="#typography">
+    <a name="type"></a>
+    <h1>TYPE</h1>
+    <p>
+        Hierarchy is the key to success for this design, with the amount going on in each page. Type should evoke feelings of space while maintaining approachability and comfort.</p>
+    <h2>Typefaces</h2>
+    <h3>Montserrat</h3>
+    <p>Montserrat should be used as the brand typeface, but avoided in paragraph text as it takes up a lot of space.
+        <br>
+        <br><i>
+		The old posters and signs in the traditional neighborhood of Buenos Aires called Montserrat inspired me to design a typeface that rescues the beauty of urban typography from the first half of the twentieth century. The goal is to rescue what is in Montserrat and set it free, under a free, libre and open source license, the SIL Open Font License.<br><br>You can read more about Montserrat <a href = "https://www.google.com/fonts/specimen/Montserrat#charset">here. </a></i>
+        <div class="montserrat-sample">
+            <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9 0</p><b>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9 0</b></div>
+        <h3>Source Sans Pro</h3>
+        <p>Source Sans Pro is an excellent fit for this application as it spacious and light, as well as approachable and friendly.
+            <br>
+            <br><i>
+		Source® Sans Pro, Adobe's first open source typeface family, was designed by Paul D. Hunt. It is a sans serif typeface intended to work well in user interfaces.<br><br>You can read more about Source Sans Pro <a href = "https://www.google.com/fonts/specimen/Source+Sans+Pro">here. </a></i>
+            <div class="source-sans-sample">
+                <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9 0</p><b>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9 0</b></div>
+            <h2>Spacing</h2>
+            <h3>Line height</h3> When setting body copy, the leading should be 1.2 times the type size.
+            <br>
+            <br>
+            <h3>Line length</h3> Keeping the line legnth short causes less fatigue to the users eyes since they don't have to go all the way across the screen to start the next line.
+            <br>
+            <br>Lines shouldn't be more than 70 characters, or 80% of the desktop screen width.
+            <br>
+            <br>
+            <h2> CODE </h2>
+            <p class="sample"> h1, h2, h3, h4, h5, h6 { font-weight: $base-font-weight; margin-top: 1em; } h1 { font-family: 'Montserrat'; font-size: 2.5em; } h2 { font-family: 'Source Sans Pro'; font-size: 1.5em; letter-spacing: 1.0; } h3 { font-family: 'Source Sans Pro'; font-weight: bold; text-transform: uppercase; font-size: 1.25em; } h4 { font-family: 'Montserrat'; text-transform: uppercase; text-decoration: underline; } a { font-family: 'Montserrat'; }
+            </p>
+            <h2> USE </h2>
+            <p>Place this line of code inside the head tag of your HTML
+                <br>
+                <br>
+            </p>
+            <p class="sample">&lt;link href='https://fonts.googleapis.com/css?family= Montserrat:400,700|Source+Sans+P ro:400,300,600,600italic,400italic,700' rel='stylesheet' type='text/css'&gt;
+            </p>
+</div>
+<div class="subsection" id="color-section">
+    <a name="color"></a>
+
+    <h1>COLORS</h1>
+    <p>The color scheme chosen was simple and meant to be soothing while delivering feelings of what RedArena is all about. We chose natural, farm like colors with brighter colors to accent important calendar events.</p>
+    <div class="background-color"><span>Background</span>
+    </div>
+    <div class="primary">
+        <span>Primary</span>
+    </div>
+    <div class="secondary">
+        <span>Secondary</span>
+    </div>
+    <div class="card-background-color">
+        <span>Card Background</span>
+    </div>
+    <div class="modal-text-color white-text">
+        <span>Modal Text</span>
+    </div>
+    <div class="accent1 white-text">
+        <span>Accent 1</span>
+    </div>
+    <div class="accent2 white-text">
+        <span>Accent 2</span>
+    </div>
+
+    <div class="sessions-color white-text">
+        <span>Sessions</span>
+    </div>
+    <div class="birthdays-color white-text">
+        <span>Birthdays</span>
+    </div>
+    <div class="modal-input white-text">
+        <span>Modal Input</span>
+    </div>
+</div>
+<div class="break"></div>
+<div class="subsection" id="forms">
+    <a name="forms"></a>
+    <h1>FORM ELEMENTS</h1>
+    <h2>Form selection drop down</h2>
+    <p>All form elements used are intended to be very user friendly and easily understood. Since RedArena App will be used by a variety of people with varying technical proficiencies, sticking with familiar elements was key.</p>
+    <div class="ra-select">
+        <select class="ra-select">
+            <option value="">Event Type</option>
+            <option value="1">Session</option>
+            <option value="2">Barn Task</option>
+            <option value="3">Birthdays and Anniversaries</option>
+        </select>
+    </div>
+    <h2>Toggle Switch</h2>
+
+    <label class="label-switch">
+        <input type="checkbox" />
+        <div class="checkbox"></div>
+    </label>
+
+    <h2>Radio Buttons</h2>
+    <div class="radio-container">
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Sessions</label>
+
+                <div class="check"></div>
+            </li>
+
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Barn Tasks</label>
+
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Birthdays and Anniversaries</label>
+
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <h2>FAB</h2>
+    <div class="fab">
+        <i class="material-icons">add</i>
+    </div>
+
+
+</div>
+<br>
+<br>
+<br>
+
+
+
+</div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>By <a href = "https://github.com/amaliebarras">Amalie Barras</a> & <a href = "https://github.com/ramseykjenna">Jenna Ramsey</a></li>
+          <li><a href="mailto:"></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/amaliebarras/redarena-app"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">amaliebarras/redarena-app</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

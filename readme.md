@@ -1,5 +1,7 @@
 #Red Arena
 
+Read more about my design challenges [here](http://amaliebarras.github.io/2016/04/28/Requirements-Requirements-Everywhere.html)
+
 ### Create, edit, and manage the schedule & profile of all staff, riders, and horses. Technical Requirements [here](https://gist.github.com/jah2488/513d20bd3eadea8e5598db2072d7f193)
 
 ##Competetive Analysis

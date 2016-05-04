@@ -28,7 +28,7 @@
 
 ##Sitemap
 
-###Admin
+###Pages
 
 ####Schedule
 * Create session
@@ -37,54 +37,22 @@
 * Notify all participants in session
 * Check availability
 
-####Profile
-* Create profile
-* Edit profile
-* View profile
-
-####Dashboard
 * Birthdays / Anniversaries
 * Upcoming schedile items
 * Updated profile notifications
 * Current to-do's
 * Job training notes
-  
-####To-do's
+
 * Create
 * Edit
 * View
 * Assign time / person
 * Mark Complete
 
-###Staff / Volunteers
-
-####Schedule
-* View session
-
 ####Profile
+* Create profile
 * Edit profile
 * View profile
-
-####Dashboard
-* Upcoming schedile items
-* Updated profile notifications
-* Current to-do's
-  
-####To-do's
-* View
-* Mark Complete
-
-###Riders
-
-####Schedule
-* View session
-
-####Profile
-* Edit profile
-* View profile
-
-####Dashboard
-* Upcoming schedule items
 
 
 ##Client Meeting
@@ -92,9 +60,6 @@
 ###Questions
 
 1. What is your current process for these tasks (in more detail)?
-	* Create
-	* Edit
-	 
 	* Schedule - see below
 	* Profile - 
 		* Riders 
@@ -118,6 +83,7 @@
 				* saddle, 
 				* reins, 
 				* stirrups
+
 2. What do you dislike most about each process? 
 	* didn't get a chance to ask this
 
@@ -145,9 +111,7 @@
 	* JOb training, mental health counseling
 	* broad not deep
 
-7. What are three companies you'd like to influence your design with? 
-
-8. Are there any assets that I am required to incorporate into the design? 
+7. Are there any assets that I am required to incorporate into the design? 
 	* Green field
 	 
 9. How do you track the student improvement? 
@@ -163,19 +127,27 @@ We came up with a few different concepts for styling, playing around with child-
 
 During the sketch phase, we chose a tile-like directory and a calendar layout for the "upcoming" page.
 
+Jenna's amazing sketches below: 
+
 ![](https://github.com/amaliebarras/redarena-app/blob/master/Research/Sketches/sketches.png)
 
 ## Wireframes
+
+I used Sketch to do these wireframes 
 
 ### Mobile
 
 #### Directory
 ![](https://github.com/amaliebarras/redarena-app/blob/master/Research/Wireframes/Mobile%20Directory.png)
 
+The biggest challenge with mobile was definitely the week view on the calendar. Not much more than a dot can fit, but we managed to fit something big enough for the thumb to tap, and then display more info. 
+
 #### Upcoming
 ![](https://github.com/amaliebarras/redarena-app/blob/master/Research/Wireframes/Mobile%20Schedule.png)
 
 ### Tablet
+
+We focused a lot on tablet because it seems like a great solution for the user inside the barn. Walking around with a laptop would be bulky, but a tablet would strike the balance between lightweight & usable. 
 
 #### Directory
 ![](https://github.com/amaliebarras/redarena-app/blob/master/Research/Wireframes/Tablet%20Directory.png)
@@ -193,4 +165,4 @@ During the sketch phase, we chose a tile-like directory and a calendar layout fo
 
 ## Style Guide
 
-View project [here.](http://amaliebarras.github.io/redarena-app)
+You can clone this repo & serve it on Jekyll, or find it [here](http://amaliebarras.github.io/redarena-app/) very soon. 

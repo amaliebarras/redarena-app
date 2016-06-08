@@ -4,6 +4,8 @@ Read more about my design challenges [here](http://amaliebarras.github.io/2016/0
 
 ### Create, edit, and manage the schedule & profile of all staff, riders, and horses. Technical Requirements [here](https://gist.github.com/jah2488/513d20bd3eadea8e5598db2072d7f193)
 
+## Research
+
 ##Competetive Analysis
 * Other centers like them: 
 	* The ROCK North Austin
@@ -86,10 +88,7 @@ Read more about my design challenges [here](http://amaliebarras.github.io/2016/0
 				* reins, 
 				* stirrups
 
-2. What do you dislike most about each process? 
-	* didn't get a chance to ask this
-
-3. Describe a typical user for this app? (Organizers, employees, volunteers?)
+2. Describe a typical user for this app? (Organizers, employees, volunteers?)
 	* Volunteers (100+) -
 		* high school student volunteer hours
 		* retired men / women
@@ -102,10 +101,10 @@ Read more about my design challenges [here](http://amaliebarras.github.io/2016/0
 		* Kids under 18
 		* Adults with brain injury
 	
-5. What adjectives do you want the user to describe the app with? 
+3. What adjectives do you want the user to describe the app with? 
  * Empathy, fun, healing 
  
-6. How is your center different from other centers like yours? 
+4. How is your center different from other centers like yours? 
 	* The ROCK North Austin, SIRE, Path (certification)
 	* Individual lessons instead of group lessons
 	* Program set up to where horses have days off
@@ -113,12 +112,9 @@ Read more about my design challenges [here](http://amaliebarras.github.io/2016/0
 	* JOb training, mental health counseling
 	* broad not deep
 
-7. Are there any assets that I am required to incorporate into the design? 
+5. Are there any assets that I am required to incorporate into the design? 
 	* Green field
 	 
-9. How do you track the student improvement? 
-	*  Out of scope
-
 ## Style Tiles
 
 We came up with a few different concepts for styling, playing around with child-like, feminine, and friendship. We ended up going with a barn-like color scheme and sans-serif spacious type, since we knew our screens would be busy.

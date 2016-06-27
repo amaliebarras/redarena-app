@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RED Arena Style Guide</title>
+    <description></description>
+    <link>amaliebarras.github.io/redarena-app/</link>
+    <atom:link href="amaliebarras.github.io/redarena-app/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 27 Jun 2016 11:57:50 -0500</pubDate>
+    <lastBuildDate>Mon, 27 Jun 2016 11:57:50 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+  </channel>
+</rss>
